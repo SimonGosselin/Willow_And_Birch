@@ -37,7 +37,13 @@ Then you push up your changes up to the repo that way everyone else can pull dow
 Just kidding. It took me forever to learn this shit. Anyways...
 
 You may notice that files and folders will have a small symbol on the bottom. A red exclamation point, a green checkmark, or a yellow exclamation point.
-This symbol displays the status of the file. If it's a green checkmark, it means the file is committed or unchanged. Everything should be green when you
+This symbol displays the status of the file. If it's a green checkmark, it means the file is unchanged. Everything should be green when you
 pull down from the repo everytime. 
-If it's a red exclamation point, it means that since you last pulled, you have uncommitted changes. 
+
+If it's a red exclamation point, it means that since you last pulled, you have uncommitted changes. Save your changes!
+Once everything is not red, you can safely push up to the repo. 
+
+Conceptually, that's everything. Git is just kind of a fancier Google Drive. It's a storage place for big files.
+That being said, I haven't actually told you how to commit, push, or pull. With TortoiseGit, it's super easy. 
+
 
