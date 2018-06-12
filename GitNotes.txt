@@ -1,0 +1,43 @@
+Hey Pollo and Issa. This txt is going to be sort of an introduction to using git. 
+It's a little bit long but it'll be really useful in the long run! (I promise)
+
+What is Git?
+Git is an extremely useful tool for contributors to work on the same project "safely" and conveniently. 
+It's used in many industries, but mostly in software development and gaming. 
+
+The idea is that we have a public repository (or repo for short) on the internet that we can all access and download onto our computers at anytime. 
+When you want to change the repo for everyone, like adding texture files or animations, you "push" your changes up to the repo.
+This way, whenever someone else downloads the repo they get the updated version with your added files. 
+
+This can of course be dangerous. If you delete everything in the repo and then push your changes up to git, everything will be gone permenantly. 
+But, hopefully this document will teach you everything you need to know about git well enough so that you won't run into any issues.
+(and of course you can always just ask me or Luis for help if you're confused or want to double check something before pushing it onto the server)
+
+By now, you should have downloaded github and Tortoisegit, and cloned the git repo onto your computer.
+Github is the main software we use and tortoisegit expands the functionality ever so slightly to make our lives a bit easier while using it. 
+
+Git has three main actions you can take: committing, pushing, and pulling.
+
+Committing is just a fancy way of saying "saving."
+You commit your changes to your folder, but it's still local to your machine.
+
+Pushing means updating the repo online to match the folder on your machine. 
+You can't push your changes without committing them first, kind of like how you can't exit a Word document without saving first. 
+
+Pulling means updating your folder to match the repo online.
+It's the opposite of pushing. Pulling means completely wiping your folder to match whatever is on the internet.
+Be careful though, because if you haven't committed your changes they'll vanish!
+
+A simple example of using all 3 realistically:
+
+At the beginning of a work session, you pull down from the repo because you want to make sure what you're working with is the most up to date version.
+You add some files to our art folder online. You commit, to make sure that your progress is saved.
+Then you push up your changes up to the repo that way everyone else can pull down your files and use them. Easy as pie! 
+
+Just kidding. It took me forever to learn this shit. Anyways...
+
+You may notice that files and folders will have a small symbol on the bottom. A red exclamation point, a green checkmark, or a yellow exclamation point.
+This symbol displays the status of the file. If it's a green checkmark, it means the file is committed or unchanged. Everything should be green when you
+pull down from the repo everytime. 
+If it's a red exclamation point, it means that since you last pulled, you have uncommitted changes. 
+
