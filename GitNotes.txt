@@ -67,7 +67,7 @@ This will help us keep track of changes over time in case we have to go back for
 For example, "Updated Willow sprites and added basic character idle animation." Short, sweet, and to the point. 
 At the bottom, there's a section where it'll list all the files you're adding/modifying. 
 Make sure that the files you want added or changed have the check mark boxed checked!
-Now you're ready to hit that commit button at the bottom. Hopefully the next box will say "Success." 
+Now you're ready to hit that commit button at the bottom. Hopefully the next box will say "Success. " 
 If it doesn't for some reason, we can figure it out together. 
 Hit the close button. 
 You've committed!
