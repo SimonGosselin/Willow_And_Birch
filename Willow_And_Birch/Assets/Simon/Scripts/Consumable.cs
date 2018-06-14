@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Consumable : Gear {
 
-    float timer;
+    int turnCount;
     float restore;
     bool used;
 
@@ -34,13 +34,13 @@ public class Consumable : Gear {
 
         }
 	}
-    public float GetTimer()
+    public int GetTurnCount()
     {
-        return timer;
+        return turnCount;
     }
-    public void SetTimer(float _timer)
+    public void SetTurnCount(int _timer)
     {
-        timer = _timer;
+        turnCount = _timer;
     }
     public float GetRestoreValue()
     {

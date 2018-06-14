@@ -5,6 +5,7 @@ using UnityEngine;
 public class Gear : MonoBehaviour {
 
     int value;
+    int gearID;
 
 	// Use this for initialization
 	void Start () {
@@ -23,5 +24,13 @@ public class Gear : MonoBehaviour {
     public void SetValue(int _value)
     {
         value = _value;
+    }
+    public int GetID()
+    {
+        return gearID;
+    }
+    public void SetID(int _ID)
+    {
+        gearID = _ID;
     }
 }
