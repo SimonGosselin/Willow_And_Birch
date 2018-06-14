@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gear : MonoBehaviour {
 
-    public int value;
+    int value;
 
 	// Use this for initialization
 	void Start () {
@@ -15,4 +15,13 @@ public class Gear : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public int GetValue()
+    {
+        return value;
+    }
+    public void SetValue(int _value)
+    {
+        value = _value;
+    }
 }

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Consumable : Gear {
 
-    public float timer;
-    public float restore;
-    public bool used;
+    float timer;
+    float restore;
+    bool used;
 
     public enum ConsumeType
     {
@@ -34,4 +34,56 @@ public class Consumable : Gear {
 
         }
 	}
+    public float GetTimer()
+    {
+        return timer;
+    }
+    public void SetTimer(float _timer)
+    {
+        timer = _timer;
+    }
+    public float GetRestoreValue()
+    {
+        return restore;
+    }
+    public void SetRestoreValue(float _restoreValue)
+    {
+        restore = _restoreValue;
+    }
+    public bool GetState()
+    {
+        return used;
+    }
+    public void SetState(bool _state)
+    {
+        used = _state;
+    }
+    public void UseItem(ConsumeType potion)
+    {
+        //Consume Item
+        //Update Player character's values based on which potion
+        switch(potion)
+        {
+            case ConsumeType.HP:
+                break;
+            case ConsumeType.PP:
+                break;
+            case ConsumeType.ATTACK:
+                break;
+            case ConsumeType.DEFENSE:
+                break;
+            case ConsumeType.cureSLEEP:
+                break;
+            case ConsumeType.curePARALYSIS:
+                break;
+            case ConsumeType.cureBURN:
+                break;
+            case ConsumeType.cureFREEZE:
+                break;
+            case ConsumeType.cureSLOW:
+                break;
+            case ConsumeType.cureCONFUSION:
+                break;
+        }
+    }
 }
